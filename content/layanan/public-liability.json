@@ -1,0 +1,34 @@
+{
+  "slug": "public-liability",
+  "judul": "Asuransi Public Liability",
+  "ringkasan": "Perlindungan tanggung jawab hukum terhadap pihak ketiga akibat cedera atau kerugian yang timbul dari operasional usaha.",
+  "kategori": "Liability",
+  "ikon": "shield",
+  "estimasiPremi": {
+    "minimum": 2000000,
+    "maksimum": 15000000,
+    "satuan": "tahun",
+    "catatan": "Estimasi sangat bergantung pada jenis usaha, limit tanggungan, dan hasil penilaian risiko. Bukan harga final."
+  },
+  "poinUtama": [
+    "Menanggung tuntutan pihak ketiga atas cedera badan atau kerusakan properti akibat operasional usaha",
+    "Cocok untuk usaha ritel, F&B, kontraktor, hingga penyelenggara acara di Batam",
+    "Limit tanggungan per kejadian dan agregat tahunan dapat disesuaikan",
+    "Termasuk biaya pembelaan hukum dalam limit polis"
+  ],
+  "faq": [
+    {
+      "pertanyaan": "Apa itu public liability insurance?",
+      "jawaban": "Asuransi yang melindungi pemilik usaha dari tuntutan ganti rugi pihak ketiga (pelanggan, pengunjung, atau masyarakat umum) akibat cedera atau kerusakan properti yang terjadi karena operasional usaha."
+    },
+    {
+      "pertanyaan": "Siapa yang perlu polis ini?",
+      "jawaban": "Usaha yang menerima kunjungan publik secara rutin seperti toko, restoran, gudang, atau kontraktor proyek, di mana risiko cedera pihak ketiga cukup nyata."
+    },
+    {
+      "pertanyaan": "Apakah karyawan sendiri termasuk yang ditanggung?",
+      "jawaban": "Tidak. Cedera karyawan biasanya masuk ranah asuransi kecelakaan kerja/BPJS Ketenagakerjaan, bukan public liability yang fokus ke pihak ketiga di luar perusahaan."
+    }
+  ],
+  "updatedAt": "2026-07-20"
+}

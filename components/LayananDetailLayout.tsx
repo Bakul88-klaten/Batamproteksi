@@ -89,7 +89,7 @@ export default function LayananDetailLayout({
 
       <div className="ledger-rule pt-6">
         <a
-          href={`https://wa.me/62xxxxxxxxxx?text=${encodeURIComponent(
+          href={`https://wa.me/6281270826212?text=${encodeURIComponent(
             `Halo, saya ingin bertanya tentang ${item.judul}`
           )}`}
           className="inline-block bg-rust text-sand px-6 py-3 font-body"

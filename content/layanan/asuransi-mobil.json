@@ -1,0 +1,34 @@
+{
+  "slug": "asuransi-mobil",
+  "judul": "Asuransi Mobil",
+  "ringkasan": "Perlindungan comprehensive dan TLO khusus kendaraan roda empat pribadi di wilayah Batam.",
+  "kategori": "Kendaraan",
+  "ikon": "car",
+  "estimasiPremi": {
+    "minimum": 1800000,
+    "maksimum": 7500000,
+    "satuan": "tahun",
+    "catatan": "Estimasi untuk mobil pribadi non-komersial, wilayah Batam. Kendaraan komersial/operasional dihitung terpisah."
+  },
+  "poinUtama": [
+    "Comprehensive (all risk) atau Total Loss Only (TLO)",
+    "Perluasan banjir, huru-hara, dan tanggung jawab pihak ketiga (TJH)",
+    "Jaringan bengkel rekanan di Batam dan sekitarnya",
+    "Klaim didampingi langsung, bukan hanya lewat call center"
+  ],
+  "faq": [
+    {
+      "pertanyaan": "Apa beda comprehensive dan TLO untuk mobil?",
+      "jawaban": "Comprehensive menanggung kerusakan sebagian maupun total, sedangkan TLO hanya menanggung kerugian di atas 75% dari nilai kendaraan atau kehilangan total."
+    },
+    {
+      "pertanyaan": "Apakah mobil tahun lama masih bisa diasuransikan?",
+      "jawaban": "Bisa, dengan penyesuaian premi berdasarkan usia kendaraan dan hasil survei kondisi mobil."
+    },
+    {
+      "pertanyaan": "Apakah tanggung jawab ke pihak ketiga (misalnya menyerempet mobil lain) sudah termasuk?",
+      "jawaban": "Perluasan Tanggung Jawab Hukum Pihak Ketiga (TJH) tersedia sebagai opsi tambahan di luar polis dasar."
+    }
+  ],
+  "updatedAt": "2026-07-20"
+}
