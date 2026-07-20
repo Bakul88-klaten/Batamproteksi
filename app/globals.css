@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-sand text-ink font-body;
+  }
+  h1, h2, h3 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  /* A hairline ledger rule used between manifest entries. */
+  .ledger-rule {
+    @apply border-t border-line;
+  }
+
+  /* The manifest number: a stamped-looking index, used only where the
+     content is genuinely sequential (a filed list of covered items),
+     not as decorative 01/02/03 markers. */
+  .manifest-index {
+    @apply font-mono text-xs tracking-widest text-rust;
+  }
+}

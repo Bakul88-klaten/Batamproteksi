@@ -1,0 +1,30 @@
+{
+  "slug": "asuransi-kendaraan",
+  "judul": "Asuransi Kendaraan Bermotor",
+  "ringkasan": "Perlindungan comprehensive dan TLO untuk mobil dan motor di wilayah Batam.",
+  "kategori": "Kendaraan",
+  "ikon": "car",
+  "estimasiPremi": {
+    "minimum": 1500000,
+    "maksimum": 6000000,
+    "satuan": "tahun",
+    "catatan": "Estimasi untuk kendaraan pribadi non-komersial, wilayah Batam."
+  },
+  "poinUtama": [
+    "Comprehensive (all risk) atau Total Loss Only (TLO)",
+    "Perluasan banjir dan huru-hara tersedia",
+    "Jaringan bengkel rekanan di Batam dan sekitarnya",
+    "Klaim didampingi langsung, bukan hanya lewat call center"
+  ],
+  "faq": [
+    {
+      "pertanyaan": "Apa beda comprehensive dan TLO?",
+      "jawaban": "Comprehensive menanggung kerusakan sebagian maupun total, sedangkan TLO hanya menanggung kerugian di atas 75% dari nilai kendaraan atau kehilangan total."
+    },
+    {
+      "pertanyaan": "Apakah kendaraan tahun lama masih bisa diasuransikan?",
+      "jawaban": "Bisa, dengan penyesuaian premi berdasarkan usia kendaraan dan hasil survei."
+    }
+  ],
+  "updatedAt": "2026-07-20"
+}
