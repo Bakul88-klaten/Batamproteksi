@@ -14,12 +14,13 @@ export function generateStaticParams() {
   return getAllLayananSlugs().map((slug) => ({ slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const item = getLayanan(params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const item = getLayanan(slug);
   if (!item) return {};
   return {
     title: item.judul,
@@ -33,12 +34,13 @@ export function generateMetadata({
   };
 }
 
-export default function LayananPage({
+export default async function LayananPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const item = getLayanan(params.slug);
+  const { slug } = await params;
+  const item = getLayanan(slug);
   if (!item) notFound();
 
   // Explicit, per-page schema composition — this page chooses Service +
