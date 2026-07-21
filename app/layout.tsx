@@ -19,10 +19,16 @@ export default function RootLayout({
 }) {
   // Single locale (id-ID). No [locale] route segment, no URL_MAP/REVERSE_MAP
   // language switcher — this site is Indonesian-only by design.
-  // Site-wide entity schema. address/telephone are omitted here — see the
-  // NOTE in lib/schema.ts#buildLocalBusinessSchema — until real NAP data
-  // is provided in app/kontak/page.tsx.
-  const localBusinessSchema = buildLocalBusinessSchema();
+  // Site-wide entity schema. NAP data matches what's rendered in
+  // app/kontak/page.tsx.
+  const localBusinessSchema = buildLocalBusinessSchema({
+    address: {
+      streetAddress: "Komplek Tanjung Trisakti Blok A No. 8, Sei Panas",
+      addressLocality: "Batam",
+      addressRegion: "Kepulauan Riau",
+    },
+    telephone: "+628981874808",
+  });
 
   return (
     <html lang="id-ID">

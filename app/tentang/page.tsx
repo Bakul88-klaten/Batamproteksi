@@ -16,10 +16,10 @@ export default function TentangPage() {
   ];
 
   // LinkedIn belum tersedia — sameAs baru ditambahkan setelah URL profil
-  // asli Nur dikirim (buildPersonSchema hanya menyertakan sameAs jika
+  // asli Sutono dikirim (buildPersonSchema hanya menyertakan sameAs jika
   // linkedinUrl diisi, jadi aman untuk dikosongkan sementara).
   const personSchema = buildPersonSchema({
-    name: "Nur",
+    name: "Sutono",
     jobTitle: "Praktisi Asuransi",
   });
   const breadcrumbSchema = buildBreadcrumbSchema(
@@ -43,39 +43,23 @@ export default function TentangPage() {
       <h1 className="text-3xl mb-4">Tentang BatamProteksi</h1>
 
       {/*
-        EEAT copy TODO — isi tiap bagian di bawah dengan data Nur yang
-        benar-benar bisa diverifikasi, bukan disalin dari byline situs
-        lain atau dikarang untuk mengisi ruang:
-
-        1. Pengalaman: sejak kapan aktif di industri asuransi, jenis
-           polis yang paling sering ditangani, dan pengalaman spesifik
-           di pasar Batam (mis. sektor apa yang paling sering diajak
-           bicara — logistik, ritel, kendaraan pribadi).
-        2. Kredensial: lisensi/sertifikasi resmi (AAJI atau setara) jika
-           ada, berikut nomor yang bisa diverifikasi publik. Jangan
-           dicantumkan jika belum ada — lebih baik kosong daripada
-           salah.
-        3. Metode kerja: bagaimana proses konsultasi berjalan — misalnya
-           berapa lama biasanya sampai rekomendasi diberikan, apakah
-           mendampingi sampai proses klaim selesai.
-        4. Foto profil asli (bukan stok) untuk memperkuat sinyal "real
-           person" — tambahkan ke buildPersonSchema via imageUrl.
+        Foto profil asli (bukan stok) belum tersedia — tambahkan ke
+        buildPersonSchema via imageUrl bila Sutono mengirimkan file foto.
       */}
       <section className="ledger-rule pt-6 mb-8 max-w-xl">
         <h2 className="text-xl mb-3">Pengalaman</h2>
         <p className="text-slate">
-          [Isi dengan pengalaman asli Nur di industri asuransi — sejak kapan,
-          jenis polis yang paling sering ditangani, dan konteks pasar Batam
-          secara spesifik.]
+          Sutono memiliki 7 tahun pengalaman di industri asuransi kerugian,
+          mendampingi klien di Batam dalam pemilihan dan pengurusan polis
+          kendaraan maupun liability.
         </p>
       </section>
 
       <section className="ledger-rule pt-6 mb-8 max-w-xl">
         <h2 className="text-xl mb-3">Kredensial</h2>
         <p className="text-slate">
-          [Isi dengan lisensi/sertifikasi resmi yang benar-benar dimiliki dan
-          bisa diverifikasi. Kosongkan bagian ini jika belum ada — jangan
-          diisi dengan nomor yang tidak bisa dibuktikan.]
+          Terdaftar sebagai Agen Asuransi Bersertifikat AAUI dengan nomor
+          peserta 29.091210.00.00.005972.2901.
         </p>
       </section>
 

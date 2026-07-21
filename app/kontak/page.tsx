@@ -34,21 +34,15 @@ export default function KontakPage() {
         asuransi kendaraan atau liability di Batam.
       </p>
       <a
-        href="https://wa.me/6281270826212"
+        href="https://wa.me/628981874808"
         className="inline-block bg-rust text-sand px-6 py-3"
       >
         Chat WhatsApp
       </a>
 
-      {/*
-        NAP TODO — tambahkan alamat kantor/domisili usaha yang sama persis
-        dengan yang terdaftar di Google Business Profile (bila ada), lalu:
-        1. Render sebagai teks biasa di bawah ini.
-        2. Teruskan ke buildLocalBusinessSchema({ address, telephone })
-           di app/layout.tsx supaya schema situs konsisten dengan NAP.
-        Jangan isi dengan alamat perkiraan — NAP yang tidak konsisten
-        justru merusak sinyal LocalBusiness, bukan menguatkannya.
-      */}
+      <p className="text-slate mt-6 max-w-lg">
+        Komplek Tanjung Trisakti Blok A No. 8, Sei Panas, Batam
+      </p>
     </div>
   );
 }
