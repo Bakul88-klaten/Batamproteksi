@@ -16,6 +16,78 @@
     "Limit tanggungan per kejadian dan agregat tahunan dapat disesuaikan",
     "Termasuk biaya pembelaan hukum dalam limit polis"
   ],
+  "konteksLokal": {
+    "narasi": "Batam berstatus Kawasan Perdagangan Bebas dan Pelabuhan Bebas (FTZ), dengan konsentrasi usaha ritel, F&B, dan kontraktor yang padat di kawasan seperti Nagoya, Batam Centre, dan Baloi, serta klaster industri dan pergudangan di Batu Aji, Sekupang, dan Tanjung Uncang. Usaha yang menerima kunjungan publik secara rutin — mulai dari toko dan restoran hingga gudang dan lokasi proyek — menghadapi eksposur risiko pihak ketiga yang berbeda tergantung jenis dan lokasi usahanya. Kontraktor yang bekerja di area proyek dekat kawasan industri, misalnya, punya profil risiko yang berbeda dari kedai kopi di area perbelanjaan.",
+    "area": [
+      "Batam Kota",
+      "Lubuk Baja (Nagoya)",
+      "Sekupang",
+      "Batu Aji",
+      "Sagulung",
+      "Batu Ampar",
+      "Bengkong",
+      "Nongsa",
+      "Sei Beduk"
+    ],
+    "risiko": [
+      "Kunjungan pelanggan padat di toko dan restoran kawasan Nagoya dan Batam Centre, dengan risiko cedera akibat lantai licin, rak jatuh, atau area parkir yang ramai",
+      "Proyek konstruksi dan area pergudangan di Batu Aji dan Tanjung Uncang, dengan risiko cedera pihak ketiga yang melintas dekat lokasi kerja",
+      "Acara publik atau pameran di ruang terbuka, dengan risiko cedera pengunjung atau kerusakan properti sekitar",
+      "Usaha yang berhubungan langsung dengan aktivitas pelabuhan dan logistik di sekitar Batu Ampar, dengan lalu lintas bongkar-muat yang berisiko bagi pihak ketiga di sekitarnya"
+    ]
+  },
+  "cakupanDetail": [
+    {
+      "judul": "Cedera Badan Pihak Ketiga",
+      "penjelasan": "Menanggung tuntutan ganti rugi bila pelanggan, pengunjung, atau masyarakat umum mengalami cedera akibat kelalaian operasional usaha — misalnya terpeleset di area toko atau tertimpa barang yang jatuh dari rak."
+    },
+    {
+      "judul": "Kerusakan Properti Pihak Ketiga",
+      "penjelasan": "Menanggung kerusakan properti milik pihak lain yang terjadi akibat operasional usaha, termasuk kerusakan pada bangunan atau kendaraan pihak ketiga di sekitar lokasi usaha."
+    },
+    {
+      "judul": "Biaya Pembelaan Hukum",
+      "penjelasan": "Bila tuntutan pihak ketiga berujung proses hukum, biaya pembelaan (legal defense cost) termasuk dalam limit polis, sehingga tidak menjadi beban tambahan di luar premi yang sudah dibayarkan."
+    },
+    {
+      "judul": "Limit Per Kejadian dan Agregat Tahunan",
+      "penjelasan": "Setiap polis punya dua batas: limit maksimum per kejadian tunggal, dan limit agregat untuk total klaim dalam satu tahun polis. Keduanya perlu disesuaikan dengan skala usaha dan tingkat paparan risiko terhadap publik."
+    }
+  ],
+  "prosesKlaim": [
+    {
+      "langkah": "Catat dan laporkan kejadian",
+      "penjelasan": "Segera setelah insiden terjadi, dokumentasikan lokasi, kronologi, dan pihak yang terlibat, lalu laporkan ke penyedia polis sesegera mungkin."
+    },
+    {
+      "langkah": "Kumpulkan bukti pendukung",
+      "penjelasan": "Foto lokasi kejadian, keterangan saksi jika ada, dan dokumen terkait operasional usaha (misalnya bukti pemeliharaan fasilitas) yang relevan dengan penyebab insiden."
+    },
+    {
+      "langkah": "Penilaian klaim",
+      "penjelasan": "Penyedia polis menilai apakah insiden termasuk dalam cakupan polis, memeriksa kronologi, dan menghitung estimasi kerugian atau cedera yang dialami pihak ketiga."
+    },
+    {
+      "langkah": "Proses tuntutan atau negosiasi",
+      "penjelasan": "Jika pihak ketiga mengajukan tuntutan formal, proses ini bisa melibatkan negosiasi langsung atau jalur hukum, dengan biaya pembelaan yang termasuk dalam limit polis."
+    },
+    {
+      "langkah": "Penyelesaian",
+      "penjelasan": "Setelah kesepakatan tercapai atau putusan diperoleh, pembayaran ganti rugi diproses sesuai limit dan ketentuan polis yang berlaku."
+    }
+  ],
+  "studiKasus": [
+    {
+      "judul": "Pengunjung terpeleset di lantai toko",
+      "skenario": "Seorang pengunjung terpeleset di lantai yang basah tanpa tanda peringatan, mengalami cedera dan memerlukan perawatan medis, lalu mengajukan tuntutan ganti rugi ke pemilik toko.",
+      "penjelasan": "Ini contoh klasik cedera badan pihak ketiga akibat kelalaian operasional. Biaya perawatan dan tuntutan ganti rugi dapat masuk cakupan polis, termasuk biaya pembelaan bila kasus berlanjut ke jalur hukum."
+    },
+    {
+      "judul": "Material proyek merusak kendaraan yang terparkir di sekitar lokasi kerja",
+      "skenario": "Saat pekerjaan konstruksi berlangsung di area dekat jalan, material atau alat kerja tidak sengaja merusak kendaraan pihak ketiga yang terparkir di sekitar lokasi proyek.",
+      "penjelasan": "Kerusakan properti pihak ketiga akibat aktivitas usaha, dalam hal ini proyek konstruksi, termasuk jenis kerugian yang ditanggung public liability — berbeda dari asuransi kendaraan proyek itu sendiri yang menanggung kerusakan pada alat/kendaraan milik kontraktor."
+    }
+  ],
   "faq": [
     {
       "pertanyaan": "Apa itu public liability insurance?",
@@ -28,7 +100,28 @@
     {
       "pertanyaan": "Apakah karyawan sendiri termasuk yang ditanggung?",
       "jawaban": "Tidak. Cedera karyawan biasanya masuk ranah asuransi kecelakaan kerja/BPJS Ketenagakerjaan, bukan public liability yang fokus ke pihak ketiga di luar perusahaan."
+    },
+    {
+      "pertanyaan": "Bagaimana menentukan limit tanggungan yang tepat?",
+      "jawaban": "Limit idealnya disesuaikan dengan skala kunjungan publik dan tingkat eksposur usaha — misalnya usaha ritel dengan lalu lintas pengunjung tinggi umumnya butuh limit lebih besar dibanding usaha dengan interaksi publik terbatas."
+    },
+    {
+      "pertanyaan": "Apakah polis ini berlaku untuk kegiatan di luar lokasi usaha tetap, misalnya proyek atau acara?",
+      "jawaban": "Tergantung ketentuan polis — sebagian polis dapat mencakup lokasi kerja sementara seperti proyek atau acara, namun ini perlu dikonfirmasi dan dicantumkan secara spesifik saat pengajuan."
+    },
+    {
+      "pertanyaan": "Apakah biaya pembelaan hukum mengurangi limit polis?",
+      "jawaban": "Ya, biaya pembelaan hukum umumnya termasuk dalam limit polis, bukan tambahan di luar limit — sehingga penting mempertimbangkan potensi biaya ini saat menentukan besaran limit."
+    },
+    {
+      "pertanyaan": "Apakah usaha kecil tetap perlu public liability?",
+      "jawaban": "Skala usaha tidak menghilangkan risiko tuntutan pihak ketiga — usaha kecil yang menerima kunjungan langsung tetap menghadapi eksposur yang sama secara jenis, meski besaran limit yang dibutuhkan biasanya lebih kecil."
     }
   ],
-  "updatedAt": "2026-07-20"
+  "layananTerkait": ["asuransi-mobil"],
+  "direview": {
+    "nama": "Nur",
+    "jabatan": "Praktisi Asuransi"
+  },
+  "updatedAt": "2026-07-21"
 }

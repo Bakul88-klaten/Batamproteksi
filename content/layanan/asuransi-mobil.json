@@ -16,6 +16,110 @@
     "Jaringan bengkel rekanan di Batam dan sekitarnya",
     "Klaim didampingi langsung, bukan hanya lewat call center"
   ],
+  "konteksLokal": {
+    "narasi": "Batam adalah kota kepulauan sekaligus kawasan perdagangan bebas, sehingga pola lalu lintasnya berbeda dari kota besar di daratan Sumatra atau Jawa. Jalan-jalan utama seperti Sudirman dan Ahmad Yani di Batam Kota, kawasan Nagoya (Lubuk Baja) yang padat pertokoan, serta jalur logistik menuju Batu Ampar dan kawasan industri Tanjung Uncang di Batu Aji, masing-masing punya karakter risiko berbeda. Kendaraan pribadi di Batam juga lebih sering berbagi jalan dengan truk kontainer dan kendaraan proyek dibanding kota lain seukurannya, karena statusnya sebagai kawasan industri dan pelabuhan.",
+    "area": [
+      "Batam Kota",
+      "Lubuk Baja (Nagoya)",
+      "Sekupang",
+      "Batu Aji",
+      "Sagulung",
+      "Batu Ampar",
+      "Bengkong",
+      "Nongsa",
+      "Sei Beduk",
+      "Galang",
+      "Bulang",
+      "Belakang Padang"
+    ],
+    "risiko": [
+      "Genangan musiman di titik-titik rendah saat hujan deras, terutama di sekitar Sagulung dan sebagian Batu Aji",
+      "Kepadatan lalu lintas jam sibuk di Nagoya dan Batam Centre, dengan risiko serempetan di parkiran pusat perbelanjaan",
+      "Lalu lintas campuran dengan truk kontainer dan kendaraan proyek di jalur menuju Batu Ampar dan kawasan industri Tanjung Uncang",
+      "Jarak tempuh antarpulau lewat Jembatan Barelang menuju Galang dan Bulang, dengan kondisi jalan yang lebih sepi namun minim penerangan pada malam hari"
+    ]
+  },
+  "cakupanDetail": [
+    {
+      "judul": "Comprehensive (All Risk)",
+      "penjelasan": "Menanggung kerusakan sebagian (partial loss) maupun kehilangan total, termasuk lecet, penyok, hingga kerusakan berat akibat tabrakan. Cocok untuk mobil yang masih relatif baru atau dipakai setiap hari melintasi kawasan padat seperti Nagoya dan Batam Centre, di mana risiko gesekan kecil jauh lebih sering terjadi dibanding kehilangan total."
+    },
+    {
+      "judul": "Total Loss Only (TLO)",
+      "penjelasan": "Hanya menanggung kerugian di atas 75% dari nilai kendaraan atau kehilangan total (termasuk pencurian). Premi lebih rendah dari comprehensive, dan lebih relevan untuk kendaraan yang sudah berumur atau dipakai terbatas, di mana risiko utamanya adalah kehilangan total, bukan lecet harian."
+    },
+    {
+      "judul": "Perluasan Banjir dan Huru-Hara",
+      "penjelasan": "Polis dasar comprehensive maupun TLO tidak otomatis menanggung kerusakan akibat banjir atau kerusuhan — keduanya perlu ditambahkan sebagai perluasan (rider). Untuk kendaraan yang rutin melewati titik rawan genangan di Batam, perluasan banjir umumnya sepadan dengan tambahan premi yang dikenakan."
+    },
+    {
+      "judul": "Tanggung Jawab Hukum Pihak Ketiga (TJH)",
+      "penjelasan": "Menanggung kerugian yang ditimbulkan ke pihak lain akibat kendaraan Anda — misalnya menyerempet mobil lain atau merusak properti. Ini terpisah dari kerusakan kendaraan Anda sendiri, dan limitnya bisa disesuaikan sesuai kebutuhan."
+    },
+    {
+      "judul": "Jaringan Bengkel Rekanan",
+      "penjelasan": "Perbaikan dapat dilakukan di bengkel rekanan yang tersebar di beberapa titik Batam, sehingga proses survei dan perbaikan tidak harus dilakukan jauh dari lokasi kejadian atau domisili pemilik kendaraan."
+    }
+  ],
+  "prosesKlaim": [
+    {
+      "langkah": "Laporkan kejadian secepatnya",
+      "penjelasan": "Idealnya dalam 3x24 jam sejak kejadian. Semakin cepat dilaporkan, semakin cepat proses survei dan perbaikan bisa dimulai."
+    },
+    {
+      "langkah": "Siapkan dokumen pendukung",
+      "penjelasan": "STNK, SIM pengemudi saat kejadian, KTP pemegang polis, foto kondisi kerusakan, dan laporan kepolisian jika kejadian melibatkan pihak ketiga atau terjadi di jalan raya."
+    },
+    {
+      "langkah": "Survei kerusakan",
+      "penjelasan": "Surveyor akan memeriksa kondisi kendaraan untuk menentukan cakupan klaim sesuai jenis polis (comprehensive atau TLO) dan perluasan yang dimiliki."
+    },
+    {
+      "langkah": "Perbaikan di bengkel",
+      "penjelasan": "Kendaraan diperbaiki di bengkel rekanan, atau bengkel pilihan sendiri sesuai ketentuan polis, tergantung skema yang dipilih saat pembelian polis."
+    },
+    {
+      "langkah": "Penyelesaian klaim",
+      "penjelasan": "Untuk kerusakan sebagian, biaya perbaikan ditanggung sesuai polis setelah survei selesai. Untuk klaim total loss, pembayaran dilakukan setelah proses administrasi dan penilaian nilai kendaraan rampung."
+    }
+  ],
+  "perbandingan": {
+    "judul": "Comprehensive vs TLO",
+    "kolom": ["Comprehensive", "TLO"],
+    "baris": [
+      {
+        "label": "Kerusakan sebagian (lecet, penyok)",
+        "nilai": ["Ditanggung", "Tidak ditanggung"]
+      },
+      {
+        "label": "Kehilangan total / kerusakan >75%",
+        "nilai": ["Ditanggung", "Ditanggung"]
+      },
+      {
+        "label": "Premi",
+        "nilai": ["Lebih tinggi", "Lebih rendah"]
+      },
+      {
+        "label": "Paling cocok untuk",
+        "nilai": [
+          "Mobil baru, dipakai harian di kawasan padat",
+          "Mobil berumur, pemakaian terbatas"
+        ]
+      }
+    ]
+  },
+  "studiKasus": [
+    {
+      "judul": "Genangan air di kawasan Sagulung",
+      "skenario": "Mobil terparkir di area yang tergenang setelah hujan deras beberapa jam, air masuk hingga menggenangi bagian dalam kabin dan mempengaruhi kelistrikan.",
+      "penjelasan": "Kerusakan akibat banjir hanya ditanggung jika polis memiliki perluasan banjir — baik pada skema comprehensive maupun TLO (untuk TLO, tetap harus memenuhi ambang kerusakan >75%). Tanpa perluasan ini, kerusakan akibat air tidak masuk cakupan dasar."
+    },
+    {
+      "judul": "Serempetan di parkiran pusat perbelanjaan Nagoya",
+      "skenario": "Mobil tergores saat manuver parkir di area yang padat, kerusakan pada bagian bodi namun kendaraan masih bisa dipakai normal.",
+      "penjelasan": "Ini contoh khas kerusakan sebagian (partial loss) yang hanya ditanggung pada polis comprehensive. Pemegang polis TLO tidak bisa mengklaim kejadian semacam ini karena nilai kerusakannya jauh di bawah ambang 75%."
+    }
+  ],
   "faq": [
     {
       "pertanyaan": "Apa beda comprehensive dan TLO untuk mobil?",
@@ -28,7 +132,28 @@
     {
       "pertanyaan": "Apakah tanggung jawab ke pihak ketiga (misalnya menyerempet mobil lain) sudah termasuk?",
       "jawaban": "Perluasan Tanggung Jawab Hukum Pihak Ketiga (TJH) tersedia sebagai opsi tambahan di luar polis dasar."
+    },
+    {
+      "pertanyaan": "Apakah premi asuransi mobil di Batam berbeda dari kota lain?",
+      "jawaban": "Premi mengikuti ketentuan tarif OJK berdasarkan wilayah dan segmentasi kendaraan. Batam masuk dalam salah satu wilayah tarif, dan angka pastinya tetap bergantung pada hasil penilaian risiko kendaraan yang bersangkutan."
+    },
+    {
+      "pertanyaan": "Bagaimana kalau mobil sering melewati kawasan industri seperti Tanjung Uncang?",
+      "jawaban": "Kendaraan yang rutin melintasi jalur padat kendaraan berat sebaiknya mempertimbangkan comprehensive dibanding TLO, karena risiko gesekan atau benturan kecil lebih tinggi di jalur semacam ini."
+    },
+    {
+      "pertanyaan": "Apakah perlu perluasan banjir jika rumah/kantor tidak di area rawan genangan?",
+      "jawaban": "Perluasan banjir menanggung kejadian di mana pun kendaraan berada saat itu terjadi, bukan hanya di lokasi domisili — jadi tetap relevan dipertimbangkan bila kendaraan sering bepergian ke area lain di Batam."
+    },
+    {
+      "pertanyaan": "Berapa lama proses klaim biasanya selesai?",
+      "jawaban": "Untuk klaim kerusakan sebagian dengan dokumen lengkap, proses survei hingga mulai perbaikan biasanya berjalan dalam hitungan hari kerja. Klaim total loss memerlukan waktu tambahan untuk proses administrasi dan penilaian nilai kendaraan."
     }
   ],
-  "updatedAt": "2026-07-20"
+  "layananTerkait": ["public-liability"],
+  "direview": {
+    "nama": "Nur",
+    "jabatan": "Praktisi Asuransi"
+  },
+  "updatedAt": "2026-07-21"
 }

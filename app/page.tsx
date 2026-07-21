@@ -16,7 +16,12 @@ export default function HomePage() {
       </p>
 
       <section className="ledger-rule pt-6">
-        <h2 className="text-xl mb-4">Layanan</h2>
+        <div className="flex items-baseline justify-between mb-4">
+          <h2 className="text-xl">Layanan</h2>
+          <Link href="/layanan" className="font-mono text-xs text-rust">
+            Lihat semua layanan →
+          </Link>
+        </div>
         <ul className="space-y-4">
           {layananList.map((item) => (
             <li key={item.slug}>

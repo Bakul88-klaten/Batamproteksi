@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { buildLocalBusinessSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: {
@@ -18,9 +19,18 @@ export default function RootLayout({
 }) {
   // Single locale (id-ID). No [locale] route segment, no URL_MAP/REVERSE_MAP
   // language switcher — this site is Indonesian-only by design.
+  // Site-wide entity schema. address/telephone are omitted here — see the
+  // NOTE in lib/schema.ts#buildLocalBusinessSchema — until real NAP data
+  // is provided in app/kontak/page.tsx.
+  const localBusinessSchema = buildLocalBusinessSchema();
+
   return (
     <html lang="id-ID">
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
         <header className="border-b border-line">
           <div className="mx-auto max-w-4xl px-6 py-5 flex items-center justify-between">
             <span className="font-display text-lg">BatamProteksi</span>

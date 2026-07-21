@@ -1,10 +1,11 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getLayanan, getAllLayananSlugs } from "@/lib/content";
+import { getLayanan, getAllLayananSlugs, getLayananTerkait } from "@/lib/content";
 import {
   buildServiceSchema,
   buildFaqSchema,
   buildBreadcrumbSchema,
+  buildLocalBusinessSchema,
 } from "@/lib/schema";
 import LayananDetailLayout from "@/components/LayananDetailLayout";
 
@@ -43,19 +44,33 @@ export default async function LayananPage({
   const item = getLayanan(slug);
   if (!item) notFound();
 
+  const breadcrumb = [
+    { name: "Beranda", href: "/" },
+    { name: "Layanan", href: "/layanan" },
+    { name: item.judul, href: `/layanan/${item.slug}` },
+  ];
+
   // Explicit, per-page schema composition — this page chooses Service +
   // FAQPage + BreadcrumbList; a different page type could choose a
   // different set. Nothing is auto-injected by the layout itself.
   const jsonLd: Record<string, unknown>[] = [
     buildServiceSchema(item),
-    buildBreadcrumbSchema([
-      { name: "Beranda", url: SITE_URL },
-      { name: "Layanan", url: `${SITE_URL}/layanan` },
-      { name: item.judul, url: `${SITE_URL}/layanan/${item.slug}` },
-    ]),
+    buildLocalBusinessSchema(),
+    buildBreadcrumbSchema(
+      breadcrumb.map((b) => ({ name: b.name, url: `${SITE_URL}${b.href}` }))
+    ),
   ];
   const faqSchema = buildFaqSchema(item);
   if (faqSchema) jsonLd.push(faqSchema);
 
-  return <LayananDetailLayout item={item} jsonLd={jsonLd} />;
+  const layananTerkait = getLayananTerkait(item);
+
+  return (
+    <LayananDetailLayout
+      item={item}
+      layananTerkait={layananTerkait}
+      breadcrumb={breadcrumb}
+      jsonLd={jsonLd}
+    />
+  );
 }
