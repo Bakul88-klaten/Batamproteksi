@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <line x1="24" y1="272" x2="776" y2="272" stroke="#C9BFA8" stroke-width="1.5"/>
+  <g stroke="#C9BFA8" stroke-width="1.5">
+    <line x1="24" y1="266" x2="24" y2="278"/>
+    <line x1="104" y1="269" x2="104" y2="278"/>
+    <line x1="184" y1="269" x2="184" y2="278"/>
+    <line x1="264" y1="269" x2="264" y2="278"/>
+    <line x1="344" y1="266" x2="344" y2="278"/>
+    <line x1="424" y1="269" x2="424" y2="278"/>
+    <line x1="504" y1="269" x2="504" y2="278"/>
+    <line x1="584" y1="269" x2="584" y2="278"/>
+    <line x1="664" y1="266" x2="664" y2="278"/>
+    <line x1="744" y1="269" x2="744" y2="278"/>
+    <line x1="776" y1="266" x2="776" y2="278"/>
+  </g>
+
+  <!-- warehouse / ruko row line-art -->
+  <g fill="none" stroke="#15231D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 250 L40 190 L90 160 L140 190 L140 250 Z"/>
+    <line x1="90" y1="160" x2="90" y2="250"/>
+    <rect x="56" y="212" width="20" height="38"/>
+    <rect x="104" y="212" width="20" height="38"/>
+    <path d="M160 250 L160 200 L230 200 L230 250"/>
+    <line x1="176" y1="216" x2="192" y2="216"/>
+    <line x1="176" y1="232" x2="192" y2="232"/>
+  </g>
+
+  <!-- signature manifest stamp with building -->
+  <g>
+    <circle cx="600" cy="150" r="108" fill="none" stroke="#A6552E" stroke-width="2"/>
+    <circle cx="600" cy="150" r="98" fill="none" stroke="#A6552E" stroke-width="1"/>
+    <g fill="none" stroke="#15231D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M568 186 L568 128 L600 108 L632 128 L632 186 Z"/>
+      <line x1="600" y1="108" x2="600" y2="186"/>
+      <rect x="580" y="146" width="14" height="20"/>
+      <rect x="606" y="146" width="14" height="20"/>
+    </g>
+  </g>
+</svg>

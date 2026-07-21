@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <line x1="24" y1="272" x2="776" y2="272" stroke="#C9BFA8" stroke-width="1.5"/>
+  <g stroke="#C9BFA8" stroke-width="1.5">
+    <line x1="24" y1="266" x2="24" y2="278"/>
+    <line x1="104" y1="269" x2="104" y2="278"/>
+    <line x1="184" y1="269" x2="184" y2="278"/>
+    <line x1="264" y1="269" x2="264" y2="278"/>
+    <line x1="344" y1="266" x2="344" y2="278"/>
+    <line x1="424" y1="269" x2="424" y2="278"/>
+    <line x1="504" y1="269" x2="504" y2="278"/>
+    <line x1="584" y1="269" x2="584" y2="278"/>
+    <line x1="664" y1="266" x2="664" y2="278"/>
+    <line x1="744" y1="269" x2="744" y2="278"/>
+    <line x1="776" y1="266" x2="776" y2="278"/>
+  </g>
+
+  <!-- road + motion lines -->
+  <g stroke="#C9BFA8" stroke-width="2" stroke-dasharray="10 10">
+    <line x1="40" y1="220" x2="230" y2="220"/>
+  </g>
+
+  <!-- car line-art -->
+  <g fill="none" stroke="#15231D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 200 L64 200 L84 172 L166 172 L188 200 L212 200 L212 216 L40 216 Z"/>
+    <path d="M92 172 L100 200 M150 172 L142 200"/>
+    <circle cx="80" cy="216" r="15"/>
+    <circle cx="176" cy="216" r="15"/>
+    <line x1="212" y1="192" x2="230" y2="192"/>
+  </g>
+
+  <!-- signature manifest stamp -->
+  <g>
+    <circle cx="600" cy="150" r="108" fill="none" stroke="#A6552E" stroke-width="2"/>
+    <circle cx="600" cy="150" r="98" fill="none" stroke="#A6552E" stroke-width="1"/>
+    <g fill="none" stroke="#15231D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M556 172 L556 138 L600 116 L644 138 L644 172 Z"/>
+      <line x1="556" y1="150" x2="644" y2="150"/>
+      <line x1="600" y1="150" x2="600" y2="172"/>
+    </g>
+    <circle cx="600" cy="128" r="3" fill="#A6552E"/>
+  </g>
+</svg>

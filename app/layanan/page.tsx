@@ -3,20 +3,24 @@ import Link from "next/link";
 import { getLayananByKategori } from "@/lib/content";
 import { buildCollectionPageSchema, buildBreadcrumbSchema } from "@/lib/schema";
 import Breadcrumb from "@/components/Breadcrumb";
-
-const SITE_URL = "https://batamproteksi.biz.id";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Layanan Asuransi",
   description:
-    "Pilihan asuransi kendaraan dan liability untuk warga serta pelaku usaha di Batam — dari perlindungan mobil pribadi hingga tanggung jawab hukum pihak ketiga.",
+    "Pilihan asuransi kendaraan, properti, liability, dan surety bond untuk warga serta pelaku usaha di Batam.",
+  alternates: { canonical: "/layanan" },
 };
 
 const KATEGORI_INTRO: Record<string, string> = {
   Kendaraan:
     "Perlindungan untuk kendaraan pribadi yang dipakai sehari-hari di jalanan Batam — dari kepadatan Batam Centre dan Nagoya sampai jalur logistik ke Batu Ampar.",
+  Properti:
+    "Perlindungan rumah, ruko, kantor, dan gudang dari kebakaran, banjir, dan risiko lain — relevan baik untuk hunian di area padat maupun gudang logistik di kawasan industri.",
   Liability:
     "Perlindungan tanggung jawab hukum bagi usaha yang beroperasi di Batam, termasuk usaha ritel, F&B, kontraktor, dan penyelenggara acara yang menerima kunjungan pihak ketiga.",
+  "Surety Bond":
+    "Jaminan formal bagi kontraktor dan pelaku usaha yang mengikuti tender maupun menjalankan proyek di Batam, dari jaminan penawaran sampai jaminan pemeliharaan pasca-proyek.",
 };
 
 export default function LayananIndexPage() {
@@ -57,9 +61,10 @@ export default function LayananIndexPage() {
       <p className="manifest-index mb-2">BATAM · MANIFEST LAYANAN</p>
       <h1 className="text-3xl mb-4">Layanan Asuransi</h1>
       <p className="text-slate max-w-xl mb-10">
-        Dua jalur perlindungan yang paling sering dibutuhkan warga dan pelaku
-        usaha di Batam: risiko di jalan, dan risiko terhadap pihak ketiga.
-        Pilih kategori sesuai kebutuhan Anda di bawah ini.
+        Empat jalur perlindungan yang paling sering dibutuhkan warga dan
+        pelaku usaha di Batam: risiko di jalan, risiko pada properti, risiko
+        terhadap pihak ketiga, dan jaminan proyek. Pilih kategori sesuai
+        kebutuhan Anda di bawah ini.
       </p>
 
       {Array.from(grouped.entries()).map(([kategori, items]) => (

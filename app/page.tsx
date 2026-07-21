@@ -1,11 +1,19 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllLayanan } from "@/lib/content";
+import HeroIllustration from "@/components/HeroIllustration";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function HomePage() {
   const layananList = getAllLayanan();
 
   return (
     <div>
+      <HeroIllustration />
+
       <p className="manifest-index mb-2">BATAM · ASURANSI TERDAFTAR</p>
       <h1 className="text-4xl mb-4 max-w-xl">
         Perlindungan yang jelas, untuk risiko yang nyata di Batam.

@@ -5,11 +5,9 @@ import {
   buildServiceSchema,
   buildFaqSchema,
   buildBreadcrumbSchema,
-  buildLocalBusinessSchema,
 } from "@/lib/schema";
 import LayananDetailLayout from "@/components/LayananDetailLayout";
-
-const SITE_URL = "https://batamproteksi.biz.id";
+import { SITE_URL } from "@/lib/site";
 
 export function generateStaticParams() {
   return getAllLayananSlugs().map((slug) => ({ slug }));
@@ -26,11 +24,13 @@ export async function generateMetadata({
   return {
     title: item.judul,
     description: item.ringkasan,
+    alternates: { canonical: `/layanan/${item.slug}` },
     openGraph: {
       title: item.judul,
       description: item.ringkasan,
       url: `${SITE_URL}/layanan/${item.slug}`,
-      images: [`${SITE_URL}/og/${item.slug}.png`],
+      // No OG image yet — see audit notes. Add one to /public/og/ once
+      // designed, then reinstate `images: [...]` here.
     },
   };
 }
@@ -51,11 +51,10 @@ export default async function LayananPage({
   ];
 
   // Explicit, per-page schema composition — this page chooses Service +
-  // FAQPage + BreadcrumbList; a different page type could choose a
-  // different set. Nothing is auto-injected by the layout itself.
+  // FAQPage + BreadcrumbList. LocalBusiness is already emitted site-wide
+  // in app/layout.tsx with the real NAP data, so it isn't repeated here.
   const jsonLd: Record<string, unknown>[] = [
     buildServiceSchema(item),
-    buildLocalBusinessSchema(),
     buildBreadcrumbSchema(
       breadcrumb.map((b) => ({ name: b.name, url: `${SITE_URL}${b.href}` }))
     ),

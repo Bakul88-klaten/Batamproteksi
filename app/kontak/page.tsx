@@ -1,12 +1,12 @@
 import { buildBreadcrumbSchema } from "@/lib/schema";
 import Breadcrumb from "@/components/Breadcrumb";
-
-const SITE_URL = "https://batamproteksi.biz.id";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata = {
   title: "Kontak",
   description:
     "Hubungi BatamProteksi untuk konsultasi asuransi kendaraan dan liability di Batam.",
+  alternates: { canonical: "/kontak" },
 };
 
 export default function KontakPage() {

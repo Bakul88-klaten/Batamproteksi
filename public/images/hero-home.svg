@@ -1,0 +1,52 @@
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <!-- baseline manifest rule with tick marks -->
+  <line x1="24" y1="272" x2="776" y2="272" stroke="#C9BFA8" stroke-width="1.5"/>
+  <g stroke="#C9BFA8" stroke-width="1.5">
+    <line x1="24" y1="266" x2="24" y2="278"/>
+    <line x1="104" y1="269" x2="104" y2="278"/>
+    <line x1="184" y1="269" x2="184" y2="278"/>
+    <line x1="264" y1="269" x2="264" y2="278"/>
+    <line x1="344" y1="269" x2="344" y2="278"/>
+    <line x1="424" y1="266" x2="424" y2="278"/>
+    <line x1="504" y1="269" x2="504" y2="278"/>
+    <line x1="584" y1="269" x2="584" y2="278"/>
+    <line x1="664" y1="269" x2="664" y2="278"/>
+    <line x1="744" y1="269" x2="744" y2="278"/>
+    <line x1="776" y1="266" x2="776" y2="278"/>
+  </g>
+
+  <!-- harbor line-art: hull, containers, crane -->
+  <g fill="none" stroke="#15231D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ship hull -->
+    <path d="M60 250 L100 250 L92 264 L36 264 Z"/>
+    <line x1="80" y1="250" x2="80" y2="228"/>
+    <line x1="80" y1="228" x2="104" y2="228"/>
+
+    <!-- stacked containers -->
+    <rect x="140" y="222" width="46" height="28"/>
+    <rect x="140" y="250" width="46" height="22"/>
+    <line x1="163" y1="222" x2="163" y2="250"/>
+    <rect x="192" y="238" width="46" height="34"/>
+    <line x1="215" y1="238" x2="215" y2="272"/>
+
+    <!-- gantry crane -->
+    <line x1="290" y1="272" x2="290" y2="150"/>
+    <line x1="290" y1="150" x2="380" y2="150"/>
+    <line x1="290" y1="168" x2="270" y2="272"/>
+    <line x1="330" y1="150" x2="330" y2="272"/>
+    <line x1="380" y1="150" x2="380" y2="196"/>
+    <line x1="358" y1="196" x2="380" y2="196"/>
+  </g>
+
+  <!-- signature manifest stamp -->
+  <g>
+    <circle cx="600" cy="150" r="108" fill="none" stroke="#A6552E" stroke-width="2"/>
+    <circle cx="600" cy="150" r="98" fill="none" stroke="#A6552E" stroke-width="1"/>
+    <g fill="none" stroke="#15231D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M556 172 L556 138 L600 116 L644 138 L644 172 Z"/>
+      <line x1="556" y1="150" x2="644" y2="150"/>
+      <line x1="600" y1="150" x2="600" y2="172"/>
+    </g>
+    <circle cx="600" cy="128" r="3" fill="#A6552E"/>
+  </g>
+</svg>

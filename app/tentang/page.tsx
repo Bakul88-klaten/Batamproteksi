@@ -1,12 +1,12 @@
 import { buildPersonSchema, buildBreadcrumbSchema } from "@/lib/schema";
 import Breadcrumb from "@/components/Breadcrumb";
-
-const SITE_URL = "https://batamproteksi.biz.id";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata = {
   title: "Tentang",
   description:
     "Tentang BatamProteksi dan praktisi di baliknya — pengalaman, area keahlian, dan cara kami mendampingi klaim asuransi di Batam.",
+  alternates: { canonical: "/tentang" },
 };
 
 export default function TentangPage() {

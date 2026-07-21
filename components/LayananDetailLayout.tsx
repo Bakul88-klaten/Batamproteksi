@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { LayananContent } from "@/lib/content";
 import Breadcrumb, { type BreadcrumbItem } from "./Breadcrumb";
+import HeroIllustration from "./HeroIllustration";
 
 interface LayananDetailLayoutProps {
   item: LayananContent;
@@ -42,6 +43,8 @@ export default function LayananDetailLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       ))}
+
+      <HeroIllustration ikon={item.ikon} />
 
       <Breadcrumb items={breadcrumb} />
 
@@ -241,7 +244,7 @@ export default function LayananDetailLayout({
 
       <div className="ledger-rule pt-6">
         <a
-          href={`https://wa.me/6281270826212?text=${encodeURIComponent(
+          href={`https://wa.me/628981874808?text=${encodeURIComponent(
             `Halo, saya ingin bertanya tentang ${item.judul}`
           )}`}
           className="inline-block bg-rust text-sand px-6 py-3 font-body"

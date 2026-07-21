@@ -1,0 +1,162 @@
+{
+  "slug": "asuransi-properti",
+  "judul": "Asuransi Properti",
+  "ringkasan": "Perlindungan rumah, ruko, kantor, dan gudang dari kebakaran, banjir, dan huru-hara di Batam.",
+  "kategori": "Properti",
+  "ikon": "building",
+  "estimasiPremi": {
+    "minimum": 500000,
+    "maksimum": 8000000,
+    "satuan": "tahun",
+    "catatan": "Estimasi untuk rumah tinggal dan ruko kelas menengah. Gudang, pabrik, dan properti komersial berskala besar dihitung terpisah berdasarkan nilai bangunan, kelas konstruksi, dan isi di dalamnya."
+  },
+  "poinUtama": [
+    "Kebakaran, petir, ledakan, dan asap (FLEXAS) sebagai cakupan dasar",
+    "Perluasan banjir, angin topan, dan huru-hara (SRCC) untuk risiko yang umum di Batam",
+    "Berlaku untuk rumah tinggal, ruko, kantor, hingga gudang logistik",
+    "Penilaian nilai bangunan dibantu langsung, bukan sekadar estimasi kasar"
+  ],
+  "konteksLokal": {
+    "narasi": "Batam punya profil risiko properti yang cukup khas dibanding kota lain: sebagian besar kawasan permukiman dan ruko dibangun cepat mengikuti pertumbuhan industri, sementara kawasan industri dan pergudangan di sekitar pelabuhan menyimpan barang impor/ekspor bernilai tinggi karena status Batam sebagai kawasan perdagangan bebas (FTZ). Ruko-ruko di kawasan padat seperti Nagoya dan Batam Centre umumnya berdempetan dengan instalasi listrik yang sudah berumur, sementara gudang di Kabil, Batu Ampar, dan Tanjung Uncang menghadapi risiko kebakaran dan pencurian yang lebih besar karena nilai barang yang disimpan. Di sisi lain, area rendah seperti sebagian Sagulung dan Batu Aji rawan genangan musiman, dan kawasan pesisir seperti Nongsa lebih terpapar angin kencang saat cuaca ekstrem.",
+    "area": [
+      "Batam Kota",
+      "Lubuk Baja (Nagoya)",
+      "Sekupang",
+      "Batu Aji",
+      "Sagulung",
+      "Batu Ampar",
+      "Bengkong",
+      "Nongsa",
+      "Sei Beduk",
+      "Kabil",
+      "Tanjung Uncang"
+    ],
+    "risiko": [
+      "Kebakaran akibat instalasi listrik tua di ruko-ruko padat kawasan Nagoya dan sekitar pasar tradisional",
+      "Genangan musiman di titik rendah sekitar Sagulung dan sebagian Batu Aji saat hujan deras berkepanjangan",
+      "Pencurian dengan kekerasan di gudang logistik kawasan industri yang menyimpan barang impor bernilai tinggi",
+      "Angin kencang dan kerusakan atap di area pesisir seperti Nongsa saat cuaca ekstrem"
+    ]
+  },
+  "cakupanDetail": [
+    {
+      "judul": "Kebakaran, Petir, Ledakan, Asap (FLEXAS)",
+      "penjelasan": "Cakupan dasar polis properti — menanggung kerusakan bangunan dan isi akibat kebakaran, sambaran petir, ledakan (termasuk ledakan tabung gas rumah tangga), dan kerusakan akibat asap. Ini fondasi yang berlaku untuk hampir semua jenis properti, dari rumah tinggal sampai ruko dan gudang."
+    },
+    {
+      "judul": "Perluasan Banjir dan Angin Topan (STFWD)",
+      "penjelasan": "Tidak termasuk dalam polis dasar, harus ditambahkan sebagai perluasan (rider). Menanggung kerusakan akibat banjir, angin topan, badai, dan kerusakan air yang menyertainya. Relevan terutama untuk properti di titik-titik rawan genangan atau kawasan pesisir yang lebih terpapar angin kencang."
+    },
+    {
+      "judul": "Huru-Hara dan Kerusuhan (SRCC)",
+      "penjelasan": "Menanggung kerusakan akibat pemogokan, kerusuhan, dan huru-hara sipil (Strike, Riot, Civil Commotion). Perluasan ini umumnya dipertimbangkan untuk properti komersial di kawasan padat aktivitas usaha, meski jarang terjadi."
+    },
+    {
+      "judul": "Pencurian dengan Kekerasan",
+      "penjelasan": "Khususnya relevan untuk gudang dan properti komersial yang menyimpan barang bernilai tinggi — menanggung kerugian akibat pencurian yang disertai kekerasan atau perusakan tempat penyimpanan, bukan kehilangan barang secara umum tanpa bukti kekerasan/pembongkaran."
+    },
+    {
+      "judul": "Tanggung Jawab Hukum ke Pihak Ketiga",
+      "penjelasan": "Bila kebakaran atau kerusakan pada properti Anda menjalar dan merugikan properti tetangga atau pihak ketiga, perluasan ini menanggung tuntutan ganti rugi yang timbul akibat itu — relevan terutama di kawasan ruko berdempetan seperti Nagoya."
+    }
+  ],
+  "prosesKlaim": [
+    {
+      "langkah": "Laporkan kejadian secepatnya",
+      "penjelasan": "Idealnya dalam 3x24 jam sejak kejadian diketahui. Untuk kebakaran atau pencurian, laporan polisi (untuk pencurian) atau laporan pemadam kebakaran (untuk kebakaran) perlu diurus lebih dulu."
+    },
+    {
+      "langkah": "Amankan lokasi dan dokumentasikan",
+      "penjelasan": "Foto kondisi kerusakan sebelum dibersihkan atau diperbaiki. Dokumentasi awal ini penting untuk proses survei dan sering menjadi bukti utama penilaian kerugian."
+    },
+    {
+      "langkah": "Siapkan dokumen pendukung",
+      "penjelasan": "Sertifikat/bukti kepemilikan properti, polis asuransi, laporan kepolisian atau pemadam kebakaran (bila relevan), dan bukti nilai barang/isi bangunan yang rusak atau hilang."
+    },
+    {
+      "langkah": "Survei kerugian",
+      "penjelasan": "Surveyor menilai kerusakan bangunan dan/atau isi untuk menentukan besaran klaim sesuai jenis polis dan perluasan yang dimiliki."
+    },
+    {
+      "langkah": "Penyelesaian klaim",
+      "penjelasan": "Untuk kerusakan sebagian, penggantian dilakukan berdasarkan biaya perbaikan aktual. Untuk kerugian total, pembayaran mengikuti nilai pertanggungan yang disepakati saat polis diterbitkan."
+    }
+  ],
+  "perbandingan": {
+    "judul": "Polis Dasar vs Polis dengan Perluasan Penuh",
+    "kolom": ["Polis Dasar (FLEXAS)", "Dengan Perluasan (STFWD + SRCC)"],
+    "baris": [
+      {
+        "label": "Kebakaran, petir, ledakan, asap",
+        "nilai": ["Ditanggung", "Ditanggung"]
+      },
+      {
+        "label": "Banjir dan angin topan",
+        "nilai": ["Tidak ditanggung", "Ditanggung"]
+      },
+      {
+        "label": "Huru-hara dan kerusuhan",
+        "nilai": ["Tidak ditanggung", "Ditanggung"]
+      },
+      {
+        "label": "Premi",
+        "nilai": ["Lebih rendah", "Lebih tinggi"]
+      },
+      {
+        "label": "Paling cocok untuk",
+        "nilai": [
+          "Properti di area yang jarang tergenang, jauh dari pesisir",
+          "Properti di titik rawan genangan atau kawasan pesisir"
+        ]
+      }
+    ]
+  },
+  "studiKasus": [
+    {
+      "judul": "Korsleting listrik di ruko kawasan Nagoya",
+      "skenario": "Kebakaran bermula dari korsleting instalasi listrik tua di lantai dua ruko, api sempat menjalar ke sebagian dinding dan merusak sebagian isi toko sebelum berhasil dipadamkan.",
+      "penjelasan": "Ini termasuk cakupan dasar FLEXAS — kebakaran akibat korsleting listrik ditanggung tanpa perlu perluasan tambahan, selama bukan akibat kelalaian yang disengaja atau pelanggaran instalasi yang jelas melanggar ketentuan polis."
+    },
+    {
+      "judul": "Genangan di gudang kawasan Sagulung",
+      "skenario": "Hujan deras berkepanjangan menyebabkan genangan setinggi 30 cm masuk ke gudang penyimpanan barang, merusak sebagian stok yang disimpan di rak bawah.",
+      "penjelasan": "Kerusakan akibat banjir hanya ditanggung jika polis memiliki perluasan STFWD (banjir dan angin topan). Tanpa perluasan ini, kerugian akibat genangan air tidak masuk cakupan polis dasar, terlepas dari seberapa besar nilai kerugiannya."
+    }
+  ],
+  "faq": [
+    {
+      "pertanyaan": "Apakah polis properti dasar sudah termasuk banjir?",
+      "jawaban": "Belum. Banjir dan angin topan (STFWD) adalah perluasan terpisah dari cakupan dasar FLEXAS (kebakaran, petir, ledakan, asap) dan perlu ditambahkan sendiri saat pengajuan polis."
+    },
+    {
+      "pertanyaan": "Bagaimana menentukan nilai pertanggungan yang tepat?",
+      "jawaban": "Nilai pertanggungan idealnya mengikuti nilai reinstatement (biaya membangun ulang bangunan dengan spesifikasi setara), bukan harga jual pasar tanah dan bangunan, karena tanah tidak termasuk risiko yang ditanggung polis properti."
+    },
+    {
+      "pertanyaan": "Apakah isi bangunan (perabotan, stok barang) juga bisa diasuransikan?",
+      "jawaban": "Bisa, sebagai bagian terpisah dari nilai pertanggungan bangunan. Untuk ruko atau gudang dengan stok barang bernilai tinggi, nilai isi biasanya perlu dihitung dan dicantumkan secara spesifik, bukan digabung asal dengan nilai bangunan."
+    },
+    {
+      "pertanyaan": "Apakah gudang di kawasan industri Batam butuh polis berbeda dari rumah tinggal?",
+      "jawaban": "Ya. Gudang dan properti komersial umumnya dinilai berdasarkan kelas konstruksi dan jenis barang yang disimpan, serta lebih sering menambahkan perluasan pencurian dengan kekerasan dibanding rumah tinggal biasa."
+    },
+    {
+      "pertanyaan": "Apakah kerusakan akibat kelalaian penghuni (misalnya lupa mematikan kompor) tetap ditanggung?",
+      "jawaban": "Kebakaran akibat kelalaian umum seperti ini umumnya tetap ditanggung selama bukan kesengajaan. Namun kelalaian berat yang melanggar ketentuan keselamatan tertentu dalam polis bisa memengaruhi klaim — sebaiknya dikonfirmasi detail ketentuannya saat pengajuan."
+    },
+    {
+      "pertanyaan": "Berapa lama proses klaim kebakaran biasanya selesai?",
+      "jawaban": "Untuk kerusakan sebagian dengan dokumen dan laporan pemadam kebakaran lengkap, proses survei hingga estimasi kerugian biasanya berjalan dalam hitungan hari kerja. Klaim kerugian total memerlukan waktu tambahan untuk penilaian nilai bangunan dan proses administrasi."
+    },
+    {
+      "pertanyaan": "Apakah properti yang sedang dalam proses cicilan KPR bisa diasuransikan sendiri di luar polis dari bank?",
+      "jawaban": "Umumnya bank mewajibkan polis properti selama masa kredit berjalan, namun pemilik tetap bisa berkonsultasi mengenai pilihan perluasan tambahan di luar cakupan minimum yang diwajibkan bank."
+    }
+  ],
+  "layananTerkait": ["public-liability", "surety-bond"],
+  "direview": {
+    "nama": "Sutono",
+    "jabatan": "Praktisi Asuransi"
+  },
+  "updatedAt": "2026-07-21"
+}

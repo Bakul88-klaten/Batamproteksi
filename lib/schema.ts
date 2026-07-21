@@ -1,6 +1,6 @@
 import type { LayananContent } from "./content";
+import { SITE_URL } from "./site";
 
-const SITE_URL = "https://batamproteksi.biz.id";
 const BRAND_NAME = "BatamProteksi";
 
 // NOTE: Person/Organization identity below must be filled in with the

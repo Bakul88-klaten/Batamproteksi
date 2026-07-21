@@ -1,15 +1,36 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { buildLocalBusinessSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site";
+
+const SITE_TITLE = "BatamProteksi — Asuransi Kendaraan & Properti Batam";
+const SITE_DESCRIPTION =
+  "Konsultasi asuransi kendaraan, properti, dan surety bond untuk warga dan pelaku usaha di Batam.";
 
 export const metadata: Metadata = {
   title: {
-    default: "BatamProteksi — Asuransi Kendaraan & Properti Batam",
+    default: SITE_TITLE,
     template: "%s | BatamProteksi",
   },
-  description:
-    "Konsultasi asuransi kendaraan, properti, dan surety bond untuk warga dan pelaku usaha di Batam.",
-  metadataBase: new URL("https://batamproteksi.biz.id"),
+  description: SITE_DESCRIPTION,
+  metadataBase: new URL(SITE_URL),
+  alternates: { canonical: "/" },
+  // Default OG/Twitter card — pages that need a different title/description
+  // (e.g. app/layanan/[slug]) override just those fields; this fallback
+  // means every page still gets a usable social preview instead of none.
+  openGraph: {
+    type: "website",
+    locale: "id_ID",
+    siteName: "BatamProteksi",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    url: SITE_URL,
+  },
+  twitter: {
+    card: "summary",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+  },
 };
 
 export default function RootLayout({
@@ -32,6 +53,18 @@ export default function RootLayout({
 
   return (
     <html lang="id-ID">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+        />
+      </head>
       <body>
         <script
           type="application/ld+json"

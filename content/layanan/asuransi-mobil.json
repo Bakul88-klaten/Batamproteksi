@@ -150,7 +150,7 @@
       "jawaban": "Untuk klaim kerusakan sebagian dengan dokumen lengkap, proses survei hingga mulai perbaikan biasanya berjalan dalam hitungan hari kerja. Klaim total loss memerlukan waktu tambahan untuk proses administrasi dan penilaian nilai kendaraan."
     }
   ],
-  "layananTerkait": ["public-liability"],
+  "layananTerkait": ["public-liability", "asuransi-properti"],
   "direview": {
     "nama": "Sutono",
     "jabatan": "Praktisi Asuransi"

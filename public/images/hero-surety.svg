@@ -1,0 +1,36 @@
+<svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <line x1="24" y1="272" x2="776" y2="272" stroke="#C9BFA8" stroke-width="1.5"/>
+  <g stroke="#C9BFA8" stroke-width="1.5">
+    <line x1="24" y1="266" x2="24" y2="278"/>
+    <line x1="104" y1="269" x2="104" y2="278"/>
+    <line x1="184" y1="269" x2="184" y2="278"/>
+    <line x1="264" y1="269" x2="264" y2="278"/>
+    <line x1="344" y1="266" x2="344" y2="278"/>
+    <line x1="424" y1="269" x2="424" y2="278"/>
+    <line x1="504" y1="269" x2="504" y2="278"/>
+    <line x1="584" y1="269" x2="584" y2="278"/>
+    <line x1="664" y1="266" x2="664" y2="278"/>
+    <line x1="744" y1="269" x2="744" y2="278"/>
+    <line x1="776" y1="266" x2="776" y2="278"/>
+  </g>
+
+  <!-- contract document with signature line -->
+  <g fill="none" stroke="#15231D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 150 L50 250 L150 250 L150 176 L124 150 Z"/>
+    <path d="M124 150 L124 176 L150 176"/>
+    <line x1="66" y1="192" x2="134" y2="192"/>
+    <line x1="66" y1="208" x2="134" y2="208"/>
+    <path d="M66 232 Q84 220 100 232 Q116 244 132 232" stroke="#A6552E"/>
+  </g>
+
+  <!-- signature manifest stamp with wax-seal ribbon -->
+  <g>
+    <circle cx="600" cy="150" r="108" fill="none" stroke="#A6552E" stroke-width="2"/>
+    <circle cx="600" cy="150" r="98" fill="none" stroke="#A6552E" stroke-width="1"/>
+    <g fill="none" stroke="#15231D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="600" cy="140" r="26"/>
+      <path d="M584 162 L578 196 L600 184 L622 196 L616 162"/>
+    </g>
+    <circle cx="600" cy="140" r="6" fill="#A6552E"/>
+  </g>
+</svg>

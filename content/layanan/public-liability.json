@@ -118,7 +118,10 @@
       "jawaban": "Skala usaha tidak menghilangkan risiko tuntutan pihak ketiga — usaha kecil yang menerima kunjungan langsung tetap menghadapi eksposur yang sama secara jenis, meski besaran limit yang dibutuhkan biasanya lebih kecil."
     }
   ],
-  "layananTerkait": ["asuransi-mobil"],
+  "layananTerkait": [
+    "asuransi-mobil",
+    "surety-bond"
+  ],
   "direview": {
     "nama": "Sutono",
     "jabatan": "Praktisi Asuransi"
